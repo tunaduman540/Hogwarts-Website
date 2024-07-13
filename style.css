@@ -1,0 +1,165 @@
+.header {
+    background-color: #003C43;
+    height: 150px;
+}
+
+.leftpart {
+    background-color: #135D66;
+    
+}
+
+.footer{
+    background-color: #003C43;
+    height: 150px;
+}
+
+
+.rightpart {
+    background-color: #77B0AA;
+    font-family: serif;
+    font-size: 32px;
+    
+    
+}
+
+.leftandright{
+    height: 100%;
+
+}
+
+.buttom{
+    font-size: 16px;
+    color: white;
+}
+
+.email{
+    font-size: 30px;
+    color: white;
+}
+
+.sidebars a {
+    font-size: larger;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 15px;
+    color: rgb(255, 255, 255);
+    font-family: serif;
+}
+
+.sidebars:hover{
+    transform: scale(1.2);
+}
+
+.sidebars:hover a{
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    transition: 0.1s ease-in;
+}
+
+.child-links {
+    display: none;
+}
+
+.display-links {
+    display: block;
+}
+
+.active1 .child-links{
+    display: block;
+}
+
+.family-container:hover .child-links {
+    display: block;
+}
+
+
+.active a{
+    font-weight: bold;
+    color: black;
+    background-color: white;
+    transform: scale(1.2);
+}
+
+.active{
+    transform: scale(1.2);
+}
+
+.foto :hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.announcements li{
+    font-family: serif;
+}
+
+.headers1{
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+
+  .links{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .foto2:hover{
+    opacity: 0.5;
+    transition: 0.2s;
+
+  }
+  
+
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  .hidden,
+  #hide,
+  #hide:not(:checked) ~ .hidel,
+  #hide:checked ~ .showl{
+    display: none;
+  }
+
+  #hide:checked ~ .hidden,
+  #hide:not(:checked) ~ .showl,
+  #hide:checked ~ .hidel{
+    display: inline;
+  }
+
+  .labelc5{
+    color: white;
+    text-decoration: underline;
+    
+  }
